@@ -1,3 +1,2 @@
 # LengLang
-My own programming language \n
-Crummy and horrible, but good practice for ANTLR
+My own programming language, crummy and horrible, but good practice for ANTLR
