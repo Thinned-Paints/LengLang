@@ -1,0 +1,12 @@
+</
+#varn=INT(100);
+#varo=INT(0);
+#vare=INT(0);
+#vari=INT(0);
+#LOGIC(WHILE(vari)<=(varn)):{#vari=INT(vari+1);#LOGIC(IF(vari % 2)==(0)):{#5;#vare=INT(vare+vari);;};;};
+#vari=INT(0);
+#LOGIC(WHILE(vari)<(varn)):{#vari=INT(vari+1);#LOGIC(IF(vari % 2)!=(0)):{#5;#varo=INT(varo+vari);;};;};
+#PRINT(varo);
+#PRINT(vare);
+#PRINT(varo+vare);
+/3
